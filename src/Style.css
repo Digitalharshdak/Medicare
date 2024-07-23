@@ -17,7 +17,7 @@
 .navbar {
     z-index: -1;
     background-color: transparent;
-    padding: 0.5rem 10rem; /* Adjust spacing as needed */
+    padding: 0.5rem 10rem;
   }
   
   .navbar-nav {
@@ -28,11 +28,11 @@
   }
   
   .nav-link {
-    color: #0073FF;/* Change to your preferred link color */
+    color: #0073FF;
     font-size: 16px;
     font-weight: bold;
     font-style: Source Sans Pro;
-    font-weight: 700; /* Slightly bolder font weight */
+    font-weight: 700; 
     margin-left: 20px;
   }
   
@@ -104,7 +104,7 @@
   
   .button {
     font-weight: bold;
-    background-color: #007FF4; /* Blue color */
+    background-color: #007FF4; 
     color: white;
     padding: 15px 30px;
     border: none;
@@ -125,7 +125,7 @@
   }
 
   .button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
   }
 
   .buttom:hover {
@@ -247,7 +247,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: sans-serif; /* Choose your desired font */
+    font-family: sans-serif; 
     padding: 20px;
   }
   
@@ -259,7 +259,7 @@
   }
 
   .innovative-title button {
-    background-color: #007FF4; /* Blue color */
+    background-color: #007FF4; 
     color: white;
     padding: 15px 30px;
     border: none;
@@ -293,8 +293,8 @@
   /* ----------------Specialist------------------- */
 .special{
     background-image: url(./Image/12.jpeg);
-    margin: auto;
-    padding: auto;
+    margin-top: 50px;
+    padding: 0px;
     width: 100%;
 }
 
@@ -418,16 +418,16 @@
 
 /* --------News--------- */
 .news {
-  max-width: 900px; /* adjust the width to your liking */
-  margin: 40px auto; /* center the container */
+  max-width: 900px; 
+  margin: 40px auto; 
   padding: 20px;
-  background-color: #f9f9f9; /* light gray background */
+  background-color: #f9f9f9; 
   background-image: url("./Image/15.png");
   background-image: l;
 }
 
 .newsletter-container {
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff; 
   color: #fff;
   padding: 20px;
   border-radius: 8px;
