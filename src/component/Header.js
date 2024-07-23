@@ -7,9 +7,9 @@ function App() {
         <h2>Welcome to MediCare+ Clinic</h2>
         <h1>Best Specialists</h1>
         <p>
-          We are on the leading edge of cancer care. Providing the full
+          We are on the leading edge of cancer care. Providing the full<br/>
           continuum of cancer treatments and supportive care services in a
-          single convenient location.
+          single <br/> convenient location.
         </p>
         <div className="buttons">
           <button className="button">Make an Appointment</button>
