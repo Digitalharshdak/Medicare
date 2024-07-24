@@ -8,7 +8,7 @@ import logo from '../Image/3.png';
 function Footer() {
   return (
     <div className="foot">
-        <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img src={logo} alt="logo"/> 
