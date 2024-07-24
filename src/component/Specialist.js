@@ -30,7 +30,7 @@ function Specialist() {
           <div className="special-content">
             <h3>Dr. Filipa Gaspar</h3>
             <p>Cardiology</p>
-          </div>
+          </div> 
         </div>
         <div className="special-card">
           <div className="special-image">
@@ -51,9 +51,7 @@ function Specialist() {
           </div>
         </div>
       </div>
-    <br/>
-    <br/>
-    <br/>
+    
     <div className="say-testimonials">
       <h2>What Our Customers Say</h2>
       <div className="say-testimonials-container">
@@ -70,7 +68,7 @@ function Specialist() {
             </div>
           </div>
         </div>
-        <div className="say-testimonial">
+          <div className="say-testimonial">
           <div className="say-quote">
             <p>I wanted to thanks everyone at this facility for the <br/> quality of care and compassion they showed during <br/> my stay.</p>
             <div className="say-author">

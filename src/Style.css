@@ -3,7 +3,7 @@
    background-image: url("./Image/1.jpeg");
    background-size: cover;
    height: 100vh;
-   width: 100vw;
+   width: auto;
    position: absolute;
    top: 0;
    left: 0;
@@ -144,6 +144,7 @@
   .app-container {
     display: flex;
     background-color: transparent;
+    padding: 10px 160px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -160,7 +161,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 76px;
   }
   
   .app-service {
@@ -253,7 +254,6 @@
   
   .innovative-title {
     color: #003B79;
-    
     text-align: center;
     margin-bottom: 50px;
   }
@@ -270,7 +270,8 @@
   .innovative-services {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
+    gap: 30px;
     margin: 10 auto;
   }
   
@@ -301,16 +302,17 @@
 .special-container {
     color: #003B79;
     z-index: -1;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    /* width: 100%; */
+    /* max-width: auto; */
+    /* margin: 0 auto; */
+    /* padding: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
   .special-header {
+    align-items: center;
     color: #003B79;
     text-align: center;
     margin-bottom: 40px;
@@ -330,41 +332,42 @@
   
   .special-cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
   }
   
   .special-card {
+    align-items: center;
     width: 24%;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    /* margin-bottom: 20px; */
     padding: 15px;
-    /* border: solid #ddd; */
     border-radius: 5px;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
   }
   
   .special-image {
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 260px;
     border-radius: 5px;
     overflow: hidden;
-    margin-bottom: 10px;
   }
-  
+
   .special-image img {
     width: 100%;
-    border-radius: 5px;
-    height: auto;
-    display: block;
+    border-radius: 6px;
+    /* height: auto; */
+    /* display: block; */
   }
   
   .special-content {
     margin-top: -1px;
     background-color: white;
     text-align: center;
+    padding-top: 5px;
   }
   
   .special-content h3 {
+    padding-left: 0px;
     font-size: 24px;
     margin-bottom: 5px;
     color: #002348;
@@ -377,18 +380,17 @@
 
 /* ------ */
 .say-testimonials {
-  padding: 50px 0;
-}
-
-.say-testimonials h2 {
-
+  align-items: center;
+  margin-left: 80px;
+  padding: 30px;
 }
 
 .say-testimonials-container {
   text-align: center;
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 40px;
   margin-top: 30px;
 }
 
@@ -485,16 +487,21 @@
 footer {
   text-align: center;
   padding: 20px 0;
+  background-color: #F7FBFF;
 }
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
+  padding-left: 120px;
 }
 
 .icon {
   margin: 0 10px;
   font-size: 20px;
   color: #333;
+}
+
+footer p{
+  text-align: left;
+  padding-left: 127px;
 }
