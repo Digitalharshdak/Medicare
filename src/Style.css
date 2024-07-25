@@ -250,9 +250,9 @@
     width: 1340px;
     font-family: sans-serif; 
     padding-top: 80px;
-    padding-left: 120px;
+    padding-left: 90px;
     padding-bottom: 80px;
-    padding-right: 0px;
+    padding-right: 20px;
   }
   
   .innovative-title {
@@ -277,9 +277,8 @@
   }
   
   .innovative-services {
-    padding-left: 100px;
-    /* display: block; */
-    width: 700px;
+    padding-left: 120px;
+    width: 900px;
     height: 150px;
   }
   
